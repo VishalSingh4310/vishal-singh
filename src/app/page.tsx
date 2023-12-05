@@ -14,6 +14,7 @@ import {
 } from "@components";
 import { ProjectData, ExperienceData } from "@utils";
 import { motion } from "framer-motion";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 export default function Home() {
   const variants = {
@@ -45,21 +46,42 @@ export default function Home() {
               <p className="mt-1  text-base lg:w-[80%]">
                 I&apos;m full stack developer with a passion for front end
                 development and design.
-                {/* I build exceptional and accessible digital experiences for the web. */}
               </p>
+              <motion.div
+                whileHover={{
+                  y: -5,
+                  transition: { duration: 0.25 },
+                }}
+                className="w-fit"
+              >
+                <Link
+                  href={"Resume.pdf"}
+                  target="_blank"
+                  className="inline-flex w-fit items-center mt-6 text-sm underline cursor-pointer"
+                >
+                  Resume{" "}
+                  <MdOutlineArrowOutward className="ml-1 cursor-pointer" />
+                </Link>
+              </motion.div>
             </Reveal>
           </div>
           <div className="flex items-center justify-evenly w-1/3 text-xl">
-            <Link href={"#"}>
+            <Link target="_blank" href={"https://github.com/VishalSingh4310"}>
               <FaGithub />
             </Link>
-            <Link href={"#"}>
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/in/vishal-singh-4a7914188/"}
+            >
               <BsLinkedin />
             </Link>
-            <Link href={"#"}>
+            <Link target="_blank" href={"https://dribbble.com/vishal_s4310"}>
               <PiDribbbleLogoFill />
             </Link>
-            <Link href={"#"}>
+            <Link
+              target="_blank"
+              href={"https://www.behance.net/vishalsingh52"}
+            >
               <FaBehanceSquare />
             </Link>
           </div>
