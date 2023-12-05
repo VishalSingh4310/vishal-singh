@@ -43,7 +43,7 @@ export default function Home() {
             <Reveal delay={0.7}>
               <p className="mt-2 text-lg font-medium">Full stack developer</p>
               <p className="mt-1  text-base lg:w-[80%]">
-                I'm full stack developer with a passion for front end
+                I&apos;m full stack developer with a passion for front end
                 development and design.
                 {/* I build exceptional and accessible digital experiences for the web. */}
               </p>
@@ -74,7 +74,7 @@ export default function Home() {
                 functional and aesthetically pleasing solutions.
               </p>
               <p className="mt-2 text-base w-full">
-                Whether it's solving complex problems or embracing new
+                Whether it&apos;s solving complex problems or embracing new
                 challenges, I approach every project with enthusiasm and a
                 desire to create meaningful, user-centric solutions.
               </p>
@@ -100,6 +100,7 @@ export default function Home() {
           <MainProjectCard data={ProjectData.Ubq} delay={0.3} />
           <MainProjectCard data={ProjectData.ADmyBRAND} delay={0.6} />
           <MainProjectCard data={ProjectData.Adify} delay={0.7} />
+          <MainProjectCard data={ProjectData.Ecommerce} delay={0.9} />
         </div>
 
         <Projects />

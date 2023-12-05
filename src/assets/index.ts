@@ -3,3 +3,4 @@ export { default as Admybrand } from "./admybrandDesk.svg";
 export { default as UBQ } from "./ubqimg.png";
 export { default as MoviesApp } from "./movies.svg";
 export { default as Pattern } from "./pattern.svg";
+export { default as Beep } from "./ecommerce-details.png";

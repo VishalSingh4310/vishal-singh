@@ -21,15 +21,13 @@ const Contact = () => {
           <p className="mt-2 text-[#3e0079] w-3/5">
             Feel free to reach out via{" "}
             <span className="font-bold text-primary-midnight">mail</span>, and
-            let's turn ideas into reality. Cheers to creativity, innovation, and
-            the endless pursuit of excellence!"
+            let&apos;s turn ideas into reality. Cheers to creativity,
+            innovation, and the endless pursuit of excellence!
           </p>
         </Reveal>
         <Reveal delay={0.5}>
-          <button  className="mt-10 w-fit rounded-lg px-6 py-3 bg-gradient-to-r from-[#c7bef8] to-[#f8c2d3]">
-            <Link  href="mailto:vishals0134@gmail.com">
-            Say Hello
-            </Link>
+          <button className="mt-10 w-fit rounded-lg px-6 py-3 bg-gradient-to-r from-[#c7bef8] to-[#f8c2d3]">
+            <Link href="mailto:vishals0134@gmail.com">Say Hello</Link>
           </button>
         </Reveal>
       </div>

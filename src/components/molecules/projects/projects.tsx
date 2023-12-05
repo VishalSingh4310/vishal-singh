@@ -11,6 +11,8 @@ const Projects = () => {
         <ProjectCard data={ProjectData.MovieApp} delay={0.3} />
         <ProjectCard data={ProjectData.FoodApp} delay={0.6} />
         <ProjectCard data={ProjectData.Appointment} delay={0.8} />
+        <ProjectCard data={ProjectData.SocialApp} delay={1} />
+        <ProjectCard data={ProjectData.ChatApp} delay={1.3} />
       </div>
     </div>
   );

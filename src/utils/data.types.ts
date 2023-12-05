@@ -16,7 +16,10 @@ export interface ProjectDataType {
   Ubq: Project;
   ADmyBRAND: Project;
   Adify: Project;
+  Ecommerce: Project;
   FoodApp: Project;
   MovieApp: Project;
   Appointment: Project;
+  SocialApp: Project;
+  ChatApp: Project;
 }

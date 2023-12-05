@@ -30,6 +30,7 @@ const Reveal: FC<RevealProps> = ({
     if (inView) {
       mainControl.start("visible");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inView]);
   return (
     <motion.div {...props} ref={ref} className="relative overflow-hidden">

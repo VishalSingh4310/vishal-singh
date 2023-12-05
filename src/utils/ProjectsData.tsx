@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Adfiy, Admybrand, UBQ } from "@assets";
+import { Adfiy, Admybrand, Beep, UBQ } from "@assets";
 import { ProjectDataType } from "./data.types";
 
 const ProjectData: ProjectDataType = {
@@ -25,6 +25,13 @@ const ProjectData: ProjectDataType = {
     link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
     techs: ["React Native", "Javascript", "Golang"],
   },
+  Ecommerce: {
+    title: "Beep Shop",
+    image: <Image priority src={Beep} alt="Beep shop" />,
+    desc: "I've developed a  e-commerce project aimed at providing a seamless and enjoyable online shopping experience. ",
+    link: "https://ecommerce-v2-sable.vercel.app/",
+    techs: ["NextJs", "Javascript"],
+  },
   FoodApp: {
     title: "Food Flutter App",
     image: <Image priority src={Adfiy} alt="admybrand" />,
@@ -34,8 +41,8 @@ const ProjectData: ProjectDataType = {
         with the flavors of various food APIs.
         <br></br>
         <br></br>
-        Whether you're a home chef seeking new recipes or someone looking to
-        explore the world of gastronomy, It is your ideal culinary companion
+        Whether you&apos;re a home chef seeking new recipes or someone looking
+        to explore the world of gastronomy, It is your ideal culinary companion
       </>
     ),
     link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
@@ -72,7 +79,40 @@ const ProjectData: ProjectDataType = {
       </p>
     ),
     link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
-    techs: ["ReactJS", "TailwindCSS","NodeJS" ],
+    techs: ["ReactJS", "TailwindCSS", "NodeJS"],
+  },
+  SocialApp: {
+    title: "Social Web App",
+    image: <Image priority src={Adfiy} alt="s" />,
+    desc: (
+      <p>
+        A social media project designed to connect people, share experiences,
+        and foster meaningful connections in a digital space.
+        <br></br>
+        <br></br>
+        Social media web app is an immersive platform built on Next.js, Tailwind
+        CSS, Redux, Material-UI, and Firebase.
+      </p>
+    ),
+    link: "https://social-web-app.vercel.app/",
+    techs: ["NextJs", "TailwindCSS", "Firebase", "Material UI"],
+  },
+  ChatApp: {
+    title: "Chat Web App",
+    image: <Image priority src={Adfiy} alt="s" />,
+    desc: (
+      <p>
+        This web application provides a user-friendly and secure platform for
+        individuals to engage in real-time conversations, share ideas, and build
+        connections across the virtual landscape.
+        <br></br>
+        <br></br>
+        Chat web app is an immersive platform built on React.js, Material UI,
+        Redux and Firebase.
+      </p>
+    ),
+    link: "https://github.com/VishalSingh4310/joychat--Chat-Web-App",
+    techs: ["ReactJs", "Firebase", "Material UI"],
   },
 };
 
