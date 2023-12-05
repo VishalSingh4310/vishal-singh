@@ -5,9 +5,9 @@ import { Heading } from "@components";
 
 const Projects = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 mt-28">
       <Heading>Passion Projects Gallery</Heading>
-      <div className="mt-12 h-full grid grid-cols-3 gap-4">
+      <div className="mt-12 h-full grid grid-cols-3 gap-6">
         <ProjectCard data={ProjectData.MovieApp} delay={0.3} />
         <ProjectCard data={ProjectData.FoodApp} delay={0.6} />
         <ProjectCard data={ProjectData.Appointment} delay={0.8} />
