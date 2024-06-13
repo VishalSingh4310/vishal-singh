@@ -45,7 +45,7 @@ const ProjectData: ProjectDataType = {
         to explore the world of gastronomy, It is your ideal culinary companion
       </>
     ),
-    link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
+    link: "https://github.com/VishalSingh4310/food-app",
     techs: ["Flutter", "TMDB API"],
   },
   MovieApp: {
@@ -62,7 +62,7 @@ const ProjectData: ProjectDataType = {
         experience.
       </p>
     ),
-    link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
+    link: "https://github.com/VishalSingh4310/movie_app_github",
     techs: ["Flutter", "TMDB API"],
   },
   Appointment: {
@@ -78,7 +78,7 @@ const ProjectData: ProjectDataType = {
         slot with contact details.
       </p>
     ),
-    link: "https://play.google.com/store/apps/details?id=com.admybrand.adify&hl=en_IN&gl=US",
+    link: "https://github.com/VishalSingh4310/schedule-tracker",
     techs: ["ReactJS", "TailwindCSS", "NodeJS"],
   },
   SocialApp: {
