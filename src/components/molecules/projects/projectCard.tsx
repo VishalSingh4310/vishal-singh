@@ -23,7 +23,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ data, delay }) => {
       <div className="p-8 h-full rounded bg-primary-charcoal hover:bg-gradient-to-r from-[#F2F0FE] to-[#FEF1F5]">
         <div className="flex items-center justify-between">
           <CiFolderOn size={40} />
-          <Link href={data?.link || "#"}>
+          <Link target="_blank" href={data?.link || "#"}>
             <MdOutlineArrowOutward size={20} className="ml-1 cursor-pointer " />
           </Link>
         </div>
